@@ -1,6 +1,9 @@
+package BankInfo;
+
 public class PersonalInfo {
     String firstName;
     String lastName;
+    String fullName;
     int age;
     String email;
     //    String streetAddress;
@@ -25,4 +28,6 @@ public class PersonalInfo {
         this.birthDay = birthDay;
         this.birthYear = birthYear;
     }
+
+
 }
